@@ -5,7 +5,7 @@ block variables
 	- var pageClass = 'index-page'
 
 block content
-	section.main
+	div.main
 		.main__menu.menu
 			.menu__item
 				a(href='#') Home
@@ -13,7 +13,7 @@ block content
 				a(href='#') Photoapp
 			.menu__item.menu__item_icon
 				a(href='#')
-					img(src='static/img/general/camera.png')
+					img(src='static/img/general/camera.png' alt='Photoapp logo')
 			.menu__item
 				a(href='#') Design
 			.menu__item
@@ -38,12 +38,12 @@ block content
 	section.second
 		.second__back
 		.second__heading
-			span
+			h2
 				| Rappresent your life with a
 				br
 				| simple photo
 		.second__text
-			span
+			p
 				| Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 				br
 				| sed do eiusmod tempor incididunt ut labore et dolore
@@ -58,5 +58,43 @@ block content
 				br
 				|ut aliquip ex ea commodo consequat.
 		.second__btn
-			a(href='#').btn Get started
+			a(href='#').btn.btn_big Get started
+	section.third
+		.third__pic
+			img(src='static/img/content/iphone5c.png' alt='iPhone 5c')
+		.third__data.data
+			.data__slider
+				.data__item
+					.data__heading
+						h2 Design
+					.data__text
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+							br
+							| sed do eiusmod tempor incididunt ut labore et dolore
+							br
+							| magna aliqua. Ut
+							|
+							strong enim ad minim
+							|
+							| veniam, quis
+							br
+							| nostrud exercitation ullamco laboris nisi
+							br
+							| ut aliquip ex ea commodo consequat.
+					.data__btn
+						a(href='#').btn.btn_cornered.btn_big Learn more
+
+
+
+
+
+
+
+
+
+			.data__count
+				span 01/05
+				span < >
+
 
