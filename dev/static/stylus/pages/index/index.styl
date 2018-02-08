@@ -1,0 +1,102 @@
+.index-page
+
+  .main
+    display flex
+    flex-direction column
+    justify-content space-between
+    height 745px
+    background-image url('../img/content/bg.jpg')
+    padding-top 40px
+    padding-bottom 20px
+
+    .menu
+      display flex
+      justify-content space-between
+      align-items flex-end
+      width 760px
+      margin 0 auto
+
+      &__item
+        letter-spacing 2.3px
+        color white
+        font-weight bold
+        text-transform uppercase
+        transition opacity linear .3s
+
+        &:hover
+          opacity .7
+
+        &_icon
+          width 135px
+          padding-left 50px
+
+    .data
+      text-align center
+      padding-top 18px
+
+      &__text
+        font-size 36px
+        color white
+        font-weight bold
+        text-transform uppercase
+        letter-spacing 5.3px
+        margin-bottom 6px
+
+      &__descr
+        color white
+        font-size 16px
+        font-weight bold
+        text-transform lowercase
+        letter-spacing 2.5px
+        margin-bottom 23px
+
+    .social
+      display flex
+      justify-content center
+
+      &__item
+        color white
+        font-size 23px
+        padding 0 8px
+        transition opacity linear .3s
+
+
+        &:hover
+          opacity .7
+
+  .second
+    position relative
+    padding-top 110px
+    padding-left 130px
+    padding-bottom 90px
+
+    &__back
+      z-index -1
+      position absolute
+      bottom 0
+      right 128px
+      width 634px
+      height 401px
+      background-image url('../img/content/iphone-hand.jpg')
+      background-size 100%
+      background-repeat no-repeat
+
+    &__heading
+      font-size 18px
+      line-height 20px
+      font-weight bold
+      color green
+      text-transform uppercase
+      letter-spacing 2.7px
+      margin-bottom 40px
+
+    &__text
+      font-size 12px
+      line-height 24px
+      letter-spacing 1.8px
+      margin-bottom 40px
+
+    &__btn
+
+      .btn
+        padding 18px 43px
