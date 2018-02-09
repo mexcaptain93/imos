@@ -152,24 +152,50 @@ block content
 				i.fas.fa-angle-right
 		.fourth__slider.js-photoslider
 			.fourth__photo
-				a(data-fancybox="gallery" href="static/img/content/photo-1-cut.jpg")
+				a(data-fancybox='gallery' href='static/img/content/photo-1-cut.jpg')
 					img(src='static/img/content/photo-1-cut.jpg' alt='Photo 1')
 			.fourth__photo
-				a(data-fancybox="gallery" href="static/img/content/photo-2.jpg")
+				a(data-fancybox='gallery' href='static/img/content/photo-2.jpg')
 					img(src='static/img/content/photo-2.jpg' alt='Photo 2')
 			.fourth__photo
-				a(data-fancybox="gallery" href="static/img/content/photo-3.jpg")
+				a(data-fancybox='gallery' href='static/img/content/photo-3.jpg')
 					img(src='static/img/content/photo-3.jpg' alt='Photo 3')
 
 			.fourth__photo
-				a(data-fancybox="gallery" href="static/img/content/photo-3.jpg")
+				a(data-fancybox='gallery' href='static/img/content/photo-3.jpg')
 					img(src='static/img/content/photo-3.jpg' alt='Photo 3')
 			.fourth__photo
-				a(data-fancybox="gallery" href="static/img/content/photo-1-cut.jpg")
+				a(data-fancybox='gallery' href='static/img/content/photo-1-cut.jpg')
 					img(src='static/img/content/photo-1-cut.jpg' alt='Photo 1')
 			.fourth__photo
-				a(data-fancybox="gallery" href="static/img/content/photo-2.jpg")
+				a(data-fancybox='gallery' href='static/img/content/photo-2.jpg')
 					img(src='static/img/content/photo-2.jpg' alt='Photo 2')
+	section.fifth
+		.fifth__data.data
+			.data__heading
+				h2 Subscribe to us community
+			.data__form.form
+				form.form
+					input(type='text' placeholder='Your email').input
+					input(type='submit' hidden='hidden' id='submit-form')
+					label(for='submit-form')
+						button.btn.btn_check
+							i.fa.fa-check
+	section.seventh
+		.seventh__heading
+			h2 Download it
+		.seventh__text
+			p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		.seventh__btns.btns
+			.btns__item
+				a(href='#')
+					span.btn.btn_download Apple Store
+					i.fab.fa-apple
+			.btns__item
+				a(href='#')
+					span.btn.btn_download Play Store
+					i.fab.fa-android
+
 
 
 
