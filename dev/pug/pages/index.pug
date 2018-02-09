@@ -63,10 +63,50 @@ block content
 		.third__pic
 			img(src='static/img/content/iphone5c.png' alt='iPhone 5c')
 		.third__data.data
-			.data__slider
+			.data__slider.js-slider
 				.data__item
 					.data__heading
-						h2 Design
+						h2 Design 1
+					.data__text
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+							br
+							| sed do eiusmod tempor incididunt ut labore et dolore
+							br
+							| magna aliqua. Ut
+							|
+							strong enim ad minim
+							|
+							| veniam, quis
+							br
+							| nostrud exercitation ullamco laboris nisi
+							br
+							| ut aliquip ex ea commodo consequat.
+					.data__btn
+						a(href='#').btn.btn_cornered.btn_big Learn more
+				.data__item
+					.data__heading
+						h2 Download 2
+					.data__text
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+							br
+							| sed do eiusmod tempor incididunt ut labore et dolore
+							br
+							| magna aliqua. Ut
+							|
+							strong enim ad minim
+							|
+							| veniam, quis
+							br
+							| nostrud exercitation ullamco laboris nisi
+							br
+							| ut aliquip ex ea commodo consequat.
+					.data__btn
+						a(href='#').btn.btn_cornered.btn_big Learn more
+				.data__item
+					.data__heading
+						h2 Download 3
 					.data__text
 						p
 							| Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -93,8 +133,17 @@ block content
 
 
 
-			.data__count
-				span 01/05
-				span < >
+
+			.data__count.count
+				.count__digits.digits
+					span.digits__item.js-slider-current 01
+					span.digits__item /
+					span.digits__item.js-slider-total
+				.count__arrows.arrows
+					.arrows__item.js-slider-prev
+						i.fas.fa-angle-left
+					.arrows__item.js-slider-next
+						i.fas.fa-angle-right
+
 
 
