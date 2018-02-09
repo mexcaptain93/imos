@@ -27,10 +27,10 @@ function slider() {
 
     $('.js-slider-prev').on('click', function (e) {
         e.preventDefault();
-        $('.js-slider').find('.slick-prev').click();
+        slider.find('.slick-prev').click();
     });
     $('.js-slider-next').on('click', function (e) {
         e.preventDefault();
-        $('.js-slider').find('.slick-next').click();
+        slider.find('.slick-next').click();
     });
 }
